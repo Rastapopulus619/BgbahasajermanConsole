@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateLessonCardFirstTry", "TimCoreyCourseConsoleApp1\TimCoreyCourseConsoleApp1\CreateLessonCardFirstTry.csproj", "{9C260DB1-DF8F-4EBC-9879-95E8961B011D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bgbahasajermanDB_Libraries", "bgbahasajermanDB_Libraries\bgbahasajermanDB_Libraries.csproj", "{E907239B-6C46-44DE-9BDE-03B9B387D8DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bgbahasajermanDB_Operations_Test", "bgbahasajermanDB_Operations_Test\bgbahasajermanDB_Operations_Test.csproj", "{0CB4A301-68B2-4E3F-997C-5FD504AD58CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bgbahasajermanDB_ReplacementsManager_Test", "bgbahasajermanDB_ReplacementsManager_Test\bgbahasajermanDB_ReplacementsManager_Test.csproj", "{6008485B-DBE0-40C2-A972-5C853A4E3F24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LessonCardCreator", "LessonCardCreator\LessonCardCreator.csproj", "{DC16C3F1-8E86-4957-95DC-1575F7536617}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bgbahasajermanDB_Operations", "bgbahasajermanDB_Operations\bgbahasajermanDB_Operations.csproj", "{C636AE2E-C74E-4CE2-AD1D-8A36FE62E0AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PictureInsertion", "PictureInsertion\PictureInsertion.csproj", "{18336D64-14D3-4BC3-9D4C-CF4ECDA0C488}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C260DB1-DF8F-4EBC-9879-95E8961B011D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C260DB1-DF8F-4EBC-9879-95E8961B011D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C260DB1-DF8F-4EBC-9879-95E8961B011D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C260DB1-DF8F-4EBC-9879-95E8961B011D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E907239B-6C46-44DE-9BDE-03B9B387D8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E907239B-6C46-44DE-9BDE-03B9B387D8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E907239B-6C46-44DE-9BDE-03B9B387D8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E907239B-6C46-44DE-9BDE-03B9B387D8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB4A301-68B2-4E3F-997C-5FD504AD58CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB4A301-68B2-4E3F-997C-5FD504AD58CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB4A301-68B2-4E3F-997C-5FD504AD58CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB4A301-68B2-4E3F-997C-5FD504AD58CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6008485B-DBE0-40C2-A972-5C853A4E3F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6008485B-DBE0-40C2-A972-5C853A4E3F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6008485B-DBE0-40C2-A972-5C853A4E3F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6008485B-DBE0-40C2-A972-5C853A4E3F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC16C3F1-8E86-4957-95DC-1575F7536617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC16C3F1-8E86-4957-95DC-1575F7536617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC16C3F1-8E86-4957-95DC-1575F7536617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC16C3F1-8E86-4957-95DC-1575F7536617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C636AE2E-C74E-4CE2-AD1D-8A36FE62E0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C636AE2E-C74E-4CE2-AD1D-8A36FE62E0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C636AE2E-C74E-4CE2-AD1D-8A36FE62E0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C636AE2E-C74E-4CE2-AD1D-8A36FE62E0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18336D64-14D3-4BC3-9D4C-CF4ECDA0C488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18336D64-14D3-4BC3-9D4C-CF4ECDA0C488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18336D64-14D3-4BC3-9D4C-CF4ECDA0C488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18336D64-14D3-4BC3-9D4C-CF4ECDA0C488}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {009140ED-6174-4D50-B6D9-783E2C30C527}
+	EndGlobalSection
+EndGlobal

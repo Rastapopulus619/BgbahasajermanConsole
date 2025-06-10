@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Bayon' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Urbanist' rel='stylesheet'>
+    <title>{title}</title>
+</head>
+<style>
+
+    .cardBox {
+      width: 400px;
+      box-sizing: border-box;
+      }
+
+      .titleBox {
+        height: 35px;
+        width: 100%;
+        box-sizing: border-box;
+        
+        border-top: 4px solid black;
+        border-right: 4px solid black;
+        border-bottom: 2px solid black;
+        border-left: 4px solid black;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-weight: bold;
+        font-size: 24px;
+        font-family: 'Bayon';
+        letter-spacing: 2px;
+        }
+
+    .StudentDataBox {
+      box-sizing: border-box;
+      border: 3px solid black;
+      font-weight: bold;      
+      }
+
+    .std_Table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    .std_Table td {
+      font-size: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 3px;
+    }
+
+    .std_TableTitle {
+      font-family: 'Urbanist';
+      font-size: 15px;
+      text-align: right;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .StudentTableTitleCell{
+      width: 20%;
+      text-align: left;
+    }
+
+    .std_TableDotsCells{
+      width: 5%;
+    }
+    
+    .StudentTableDataCell{
+      
+      font-family: 'Urbanist';
+      width: 25%;
+      text-align: left;
+    }
+    
+
+
+    
+    .subtitleBox {
+      padding-top: 3px;
+      padding-bottom: 3px;
+       
+       
+       
+      border-left: 3px solid black;
+      border-right: 3px solid black;
+
+      text-align: left;
+      display: flex;
+      
+      align-items: center;
+      padding-left: 10px;
+
+      font-weight: bold;
+      font-size: 15px;
+      font-family: 'Urbanist';
+      letter-spacing: 1px;
+      }
+
+    .LesTambahanBox{
+      padding-top: 3px;
+      padding-bottom: 3px;
+       
+      border-left: 3px solid black;
+      border-right: 3px solid black;
+      border-bottom: 3px solid black;
+      font-family: 'Urbanist';
+      font-style: italic;
+      letter-spacing: 1px;
+      font-weight: bold;
+      padding-left: 10px;
+      font-size: 11px;
+    }
+
+    .container {
+      margin: 0;
+      width: 100%;
+      width: 100%;
+      box-sizing: border-box;
+    }
+      
+    .slotsTableTitle {
+      font-family: 'Bayon';
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+
+    .slotsTable {
+      border-collapse: collapse;
+      table-layout: fixed;
+      width: 100%;
+      box-sizing: border-box;
+      border: 3px solid black;
+      text-align: center;
+      font-weight: bold;
+       
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .slotsTable td {
+      height: 40px;
+      width: 50%;
+      border: 3px solid black;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 17px;
+      
+    }
+
+    .SlotsTableParaf {
+      background-image: url("https://drive.google.com/uc?export=download&id=13hdX9aoF-5KuFBWnyd5ns0em28TMA5D2");
+      background-size: 18%;
+      background-position: right 4px center;
+      background-repeat: no-repeat;
+    }
+
+</style>
+<body>
+
+  <div class="cardBox" id="cardBox">
+    <div class="titleBox" id="titleBox">Deutsch Unterricht</div>
+    <div class="StudentDataBox" >
+      <table class="std_Table">
+          <tr>
+            <td class="StudentTableTitleCell"><span class="std_TableTitle">NAME </span></td>
+            <td class="std_TableDotsCells">:</td>
+            <td class="StudentTableDataCell">Sharon</td>
+  
+            <td class="StudentTableTitleCell"><span class="std_TableTitle">DAUER </span></td>
+            <td class="std_TableDotsCells">:</td>
+            <td class="StudentTableDataCell">90MIN/UE</td>
+          </tr>
+          <tr>
+            <td class="StudentTableTitleCell"><span class="std_TableTitle">STUFE </span></td>
+            <td class="std_TableDotsCells">:</td>
+            <td class="StudentTableDataCell" id="stufe">Gespräch</td>
+  
+            <td class="StudentTableTitleCell"><span class="std_TableTitle" style="font-size: 12px; text-align: left; display: block;">INTENSITÄT</span></td>
+            <td class="std_TableDotsCells">:</td>
+            <td class="StudentTableDataCell">8</td>
+          </tr>
+          <tr>
+            <td class="StudentTableTitleCell"><span class="std_TableTitle">TAGE </span></td>
+            <td class="std_TableDotsCells">:</td>
+            <td class="StudentTableDataCell" id="tageCell">Mittwoch<br>Donnerstag</td>
+  
+            <td class="StudentTableTitleCell"><span class="std_TableTitle">ZEIT </span></td>
+            <td class="std_TableDotsCells">:</td>
+            <td class="StudentTableDataCell" id="zeitenCell">16:00-17:30<br>17:30-19:00</td>
+          </tr>
+      </table>
+    </div>
+  
+    <div class="subtitleBox" id="subtitleBox1">ALTES PAKET</div>
+
+      <table class="slotsTable"><tr><td>16 Dez 2023</td><td>21 Dez 2023</td></tr><tr><td>23 Dez 2023</td><td>11 Jan 2024</td></tr><tr><td>13 Jan 2024</td><td>18 Jan 2024</td></tr><tr><td>20 Jan 2024</td><td>25 Jan 2024</td></tr></table>
+
+      
+
+      <div class="subtitleBox" id="subtitleBox2">NEUES PAKET</div>
+      
+      <table class="slotsTable"><tr><td>31 Jan 2024</td><td>01 Feb 2024</td></tr><tr><td>21 Feb 2024</td><td>22 Feb 2024</td></tr><tr><td>28 Feb 2024</td><td>29 Feb 2024</td></tr><tr><td>06 Mär 2024</td><td>14 Mär 2024</td></tr></table>
+
+    </div>
+  
+
+  <script>
+
+  //#region - Color Changer Code
+    //#region - A1 Colors:
+
+    var a1Background = "rgb(252, 162, 162)";
+      var a1Card = "rgb(255, 106, 106)";
+      var a1Sections = "rgb(238, 75, 75)";
+
+    //#endregion
+    //#region - A2 Colors:
+
+      var a2Background = "rgb(187, 225, 206)";
+      var a2Card = "rgb(106, 241, 169)";
+      var a2Sections = "rgb(0, 213, 110)";
+
+    //#endregion
+    //#region - B1 Colors:
+
+      var b1Background = "rgb(243, 208, 169)";
+      var b1Card = "rgb(249, 180, 101)";
+      var b1Sections = "rgb(242, 133, 24)";
+
+    //#endregion
+    //#region - B2 Colors:
+
+      var b2Background = "rgb(178, 194, 238)";
+      var b2Card = "rgb(102, 137, 236)";
+      var b2Sections = "rgb(13, 65, 208)";
+
+    //#endregion
+    //#region - Define Elements
+
+      var stufeElement = document.getElementById("stufe");
+      var bodyElement = document.body;
+      var cardBox = document.getElementById("cardBox");
+      var titleBox = document.getElementById("titleBox");
+      var subtitleBox1 = document.getElementById("subtitleBox1");
+      var subtitleBox2 = document.getElementById("subtitleBox2");
+      // var tambahanBox = document.getElementById("tambahanBox");
+
+    //#endregion
+    //#region - Color Formatting
+
+      if (stufeElement.textContent === "A1") {
+
+          background = a1Background;
+          card = a1Card;
+          sections = a1Sections;
+
+      } 
+      else if (stufeElement.textContent === "A2") {
+
+          background = a2Background;
+          card = a2Card;
+          sections = a2Sections;
+
+      }
+      else if (stufeElement.textContent === "B1") {
+
+          background = b1Background;
+          card = b1Card;
+          sections = b1Sections;
+
+      }
+      else if (stufeElement.textContent === "B2" || stufeElement.textContent === "Gespräch") {
+
+          background = b2Background;
+          card = b2Card;
+          sections = b2Sections;
+
+      }
+      else{}
+
+          bodyElement.style.backgroundColor = background;
+          cardBox.style.backgroundColor = card;
+          titleBox.style.backgroundColor = sections;
+
+          subtitleBox1.style.backgroundColor = sections;
+          subtitleBox1.style.color = sections;
+          subtitleBox2.style.backgroundColor = sections;
+          subtitleBox2.style.color = sections;
+          
+          // tambahanBox.style.backgroundColor = "rgb(247, 99, 99)";
+
+    //#endregion
+  //#endregion
+  //#region - Student Data Table Cell Sizer
+
+    //#region - TAGE
+
+    var tageElement = document.getElementById("tageCell");
+
+    var tageLinesAmount = (tageElement.innerHTML.match(/<br>(?!\s*$)/g) || []).length +1;
+
+    if (tageLinesAmount === 2) {
+      tageElement.style.fontSize = "14px";
+    } else if (tageLinesAmount === 3) {
+      tageElement.style.fontSize = "13px";
+      tageElement.style.lineHeight = "1";
+    } else if (tageLinesAmount > 3) {
+      tageElement.style.fontSize = "12px";
+      tageElement.style.lineHeight = "0.9";
+    } else {
+      tageElement.style.fontSize = "15px";
+      tageElement.style.lineHeight = "1";
+    } 
+
+  //#endregion
+  //#region - ZEITEN
+
+  var zeitenElement = document.getElementById("zeitenCell");
+
+  var zeitenLinesAmount = (zeitenElement.innerHTML.match(/<br>(?!\s*$)/g) || []).length +1;
+
+    if (zeitenLinesAmount === 2) {
+      zeitenElement.style.fontSize = "14px";
+    } else if (zeitenLinesAmount === 3) {
+      zeitenElement.style.fontSize = "13px";
+      zeitenElement.style.lineHeight = "1";
+    } else if (zeitenLinesAmount > 3) {
+      zeitenElement.style.fontSize = "12px";
+      zeitenElement.style.lineHeight = "0.9";
+    } else {
+      zeitenElement.style.fontSize = "15px";
+      zeitenElement.style.lineHeight = "1";
+    } 
+
+  //#endregion
+  //#endregion
+
+  </script>
+
+
+</body>
+</html>

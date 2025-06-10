@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\bgbahasajermanDB_Libraries\bgbahasajermanDB_Libraries.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Html\" />
+    <Folder Include="Png\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="9.0.0-preview.1.24081.2" />
+  </ItemGroup>
+
+</Project>
